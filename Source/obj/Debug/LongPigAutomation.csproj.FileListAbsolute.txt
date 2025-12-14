@@ -1,0 +1,7 @@
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/1.6/Assemblies/LongPigAutomation.dll
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.csproj.AssemblyReference.cache
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.AssemblyInfoInputs.cache
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.AssemblyInfo.cs
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.csproj.CoreCompileInputs.cache
+/Users/karl/Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app/Mods/LongPigAutomation/Source/obj/Debug/LongPigAutomation.dll

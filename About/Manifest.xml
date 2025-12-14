@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <identifier>KarlB.LongPigAutomation</identifier>
+  <version>1.0.0</version>
+  <dependencies>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </dependencies>
+  <loadBefore>
+  </loadBefore>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</Manifest>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>LPA_ReturnBabyToGrowthVat</defName>
+    <driverClass>Verse.AI.JobDriver</driverClass>
+    <reportString>legacy Long Pig job (no-op).</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <casualInterruptible>true</casualInterruptible>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+  </JobDef>
+</Defs>

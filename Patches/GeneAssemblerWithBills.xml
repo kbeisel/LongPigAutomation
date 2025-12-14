@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- Add our bills comp to GeneAssembler -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="GeneAssembler"]/comps</xpath>
+
+    <!-- If comps already exists, just add our comp -->
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GeneAssembler"]/comps</xpath>
+      <value>
+        <li Class="GeneAssemblerBills.CompProperties_GeneAssemblerBills" />
+      </value>
+    </match>
+
+    <!-- If no comps node, create it -->
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GeneAssembler"]</xpath>
+      <value>
+        <comps>
+          <li Class="GeneAssemblerBills.CompProperties_GeneAssemblerBills" />
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Add our custom Bills tab -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="GeneAssembler"]/inspectorTabs</xpath>
+
+    <!-- If inspectorTabs exists, add our tab -->
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GeneAssembler"]/inspectorTabs</xpath>
+      <value>
+        <li>GeneAssemblerBills.ITab_GeneAssemblerBills</li>
+      </value>
+    </match>
+
+    <!-- If no inspectorTabs node, create it -->
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="GeneAssembler"]</xpath>
+      <value>
+        <inspectorTabs>
+          <li>GeneAssemblerBills.ITab_GeneAssemblerBills</li>
+        </inspectorTabs>
+      </value>
+    </nomatch>
+  </Operation>
+
+</Patch>
